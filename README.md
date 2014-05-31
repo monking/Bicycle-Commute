@@ -38,3 +38,20 @@ ember generate route (name)
 *Compile distribution version
 
 ember build dist
+
+
+--- Setup Instructions ---
+1. Install your operating envionrment.
+Install NodeJS - 0.10.26 (use nvm to manage versions)
+Install Bower (with -g)
+Install Ember-Cli (with -g)
+
+2. Clone this repo
+
+3. Install dependencies.
+npm install
+bower install
+
+4. Check if build scripts work.
+ember server
+(at this point, you shoudl be able to open a server on local host)
