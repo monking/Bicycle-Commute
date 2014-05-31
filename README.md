@@ -1,25 +1,9 @@
-# Bikeapp
+# Bicycle Commute - Hack for LA 2014 May 31
 
-This README outlines the details of collaborating on this Ember application.
+## Concept
 
-## Installation
+[concept gist](https://gist.github.com/monking/c0f68340eba759258d4b)
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+## Recommendations
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
+[Dijkstra's algorithm - find shortest route](http://en.wikipedia.org/wiki/Dijkstra's_algorithm)
