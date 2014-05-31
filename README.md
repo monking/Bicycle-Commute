@@ -35,10 +35,8 @@ ember generate controller (name)
 ember generate route (name)
 
 
-*Compile distribution version
-
+* Compile distribution version --
 ember build dist
-
 
 --- Setup Instructions ---
 1. Install your operating envionrment.
@@ -55,3 +53,12 @@ bower install
 4. Check if build scripts work.
 ember server
 (at this point, you shoudl be able to open a server on local host)
+
+
+
+## Recommendations
+
+[Dijkstra's algorithm - find shortest route](http://en.wikipedia.org/wiki/Dijkstra's_algorithm)
+[Ionic mobile web Framework](http://ionicframework.com/)
+[ratchet mobile framework](http://goratchet.com/)
+[FastClick - eliminate 300ms delay on touch](https://github.com/ftlabs/fastclick)
