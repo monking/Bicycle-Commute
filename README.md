@@ -7,7 +7,8 @@
 ## Recommendations
 
 [Dijkstra's algorithm - find shortest route](http://en.wikipedia.org/wiki/Dijkstra's_algorithm)
-
+[Ionic mobile web Framework](http://ionicframework.com/)
+[ratchet mobile framework](http://goratchet.com/)
 
 ## Dev nodes
 
