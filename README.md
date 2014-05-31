@@ -7,3 +7,29 @@
 ## Recommendations
 
 [Dijkstra's algorithm - find shortest route](http://en.wikipedia.org/wiki/Dijkstra's_algorithm)
+
+
+## Dev nodes
+
+TechStack
+- EmberJS front end - http://emberjs.com/guides
+
+
+Tools
+- Ember CLI - http://iamstef.net/ember-cli/
+
+
+#Common commands
+
+-- Starts a server on local host --
+ember server
+
+-- Generate code stubs --
+ember generate template (name)
+ember generate view (name)
+ember generate controller (name)
+ember generate route (name)
+
+
+-- Compile distribution version --
+ember build dist
