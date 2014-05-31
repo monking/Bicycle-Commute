@@ -14,22 +14,27 @@
 TechStack
 - EmberJS front end - http://emberjs.com/guides
 
+- Bower - management of 3rd party dependencies.
+- Node - starting local service for dev and testing purpose.
 
 Tools
-- Ember CLI - http://iamstef.net/ember-cli/
+- Ember CLI - http://iamstef.net/ember-cli/ - tools and generators for developing webapp.
 
 
 #Common commands
 
--- Starts a server on local host --
+*Starts a server on local host
+
 ember server
 
--- Generate code stubs --
+*Generate code stubs
+
 ember generate template (name)
 ember generate view (name)
 ember generate controller (name)
 ember generate route (name)
 
 
--- Compile distribution version --
+*Compile distribution version
+
 ember build dist
