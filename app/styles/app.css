@@ -7,3 +7,12 @@ html, body {
     width: 5em;
     height: 5em;
 }
+
+.near-by-rider-overlay {
+  z-index: 1;
+  background-color: white;
+}
+
+.rider-list.collapsed {
+    display: none;
+}
