@@ -35,14 +35,10 @@ app.import('vendor/ember-addons.bs_for_ember/dist/js/bs-wizard.min.js');
 //MomentJS
 app.import('vendor/momentjs/moment.js');
 
-//Leaflet
-//app.import('vendor/leaflet/dist/images/layers.png');
-//app.import('vendor/leaflet/dist/images/layers-2x.png');
-//app.import('vendor/leaflet/dist/images/marker-icon.png');
-//app.import('vendor/leaflet/dist/images/marker-icon-2x.png');
-//app.import('vendor/leaflet/dist/images/market-shadow.png');
-//app.import('vendor/leaflet/dist/leaflet.css');
-//app.import('vendor/leaflet/dist/leaflet.js');
+//Leaflet + Ember-Leaflet
+app.import('vendor/leaflet-dist/leaflet-src.js')
+app.import('vendor/leaflet-dist/leaflet.css')
+app.import('vendor/ember-leaflet/dist/ember-leaflet.js')
 
 
 // If the library that you are including contains AMD or ES6 modules that

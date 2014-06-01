@@ -9,7 +9,10 @@
     "DS": true,
     "$": true,
     "ENV": true,
-    "module": true
+    "module": true,
+    "moment":true,
+    "L": true,
+    "EmberLeaflet": true
   },
   "node" : false,
   "browser" : false,

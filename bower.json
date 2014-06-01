@@ -15,6 +15,7 @@
     "ember-qunit-notifications": "^0.0.1",
     "ember-addons.bs_for_ember": "~0.7.0",
     "momentjs": "~2.6.0",
-    "leaflet": "~0.7.3"
+    "leaflet": "~0.7.3",
+    "ember-leaflet": "~0.5.0"
   }
 }
