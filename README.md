@@ -50,7 +50,30 @@ bower install
 ember server
 (at this point, you shoudl be able to open a server on local host)
 
+## git deployment
 
+Replace `/var/www/bikeplusplus` with your production git working copy.
+
+`/var/log/bikeplusplus.log` must be writable by the git user on the production server.
+
+In a bare git repository's `hooks/post-receive` file:
+
+```
+#!/bin/bash
+cd /var/www/bikeplusplus
+
+env -u GIT_DIR git fetch origin
+env -u GIT_DIR git reset --hard origin/master
+
+. /home/git/.nvm/nvm.sh
+nvm use v0.11.12
+
+npm install
+killall ember &> /dev/null
+npm start &> /var/log/bikeplusplus.log &
+
+echo server started
+```
 
 ## Recommendations
 
