@@ -4,51 +4,47 @@
 
 [concept gist](https://gist.github.com/monking/c0f68340eba759258d4b)
 
-## Recommendations
-
-[Dijkstra's algorithm - find shortest route](http://en.wikipedia.org/wiki/Dijkstra's_algorithm)
-
-
 ## Dev nodes
 
 TechStack
 - EmberJS front end - http://emberjs.com/guides
 
-
 Tools
 - Ember CLI - http://iamstef.net/ember-cli/
 
 
-#Common commands
+## Common commands
 
--- Starts a server on local host --
-ember server
+Starts a server on local host
 
--- Generate code stubs --
-ember generate template (name)
-ember generate view (name)
-ember generate controller (name)
-ember generate route (name)
+    ember server
 
+Generate code stubs
 
--- Compile distribution version --
-ember build dist
+    ember generate template (name)
+    ember generate view (name)
+    ember generate controller (name)
+    ember generate route (name)
 
---- Setup Instructions ---
+Compile distribution version
+
+    ember build dist
+
+Setup Instructions
 1. Install your operating envionrment.
-Install NodeJS - 0.10.26 (use nvm to manage versions)
-Install Bower (with -g)
-Install Ember-Cli (with -g)
-
+  - Install NodeJS - 0.10.26 (use nvm to manage versions)
+  - Install Bower (with -g)
+  - Install Ember-Cli (with -g)
 2. Clone this repo
-
 3. Install dependencies.
-npm install
-bower install
+      npm install
+      bower install
 
 4. Check if build scripts work.
-ember server
-(at this point, you shoudl be able to open a server on local host)
+
+      ember server
+
+(at this point, you should be able to open a server on local host)
 
 ## git deployment
 
