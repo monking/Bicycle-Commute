@@ -32,6 +32,19 @@ app.import('vendor/ember-addons.bs_for_ember/dist/js/bs-popover.min.js');
 app.import('vendor/ember-addons.bs_for_ember/dist/js/bs-progressbar.min.js');
 app.import('vendor/ember-addons.bs_for_ember/dist/js/bs-wizard.min.js');
 
+//MomentJS
+app.import('vendor/momentjs/moment.js');
+
+//Leaflet
+//app.import('vendor/leaflet/dist/images/layers.png');
+//app.import('vendor/leaflet/dist/images/layers-2x.png');
+//app.import('vendor/leaflet/dist/images/marker-icon.png');
+//app.import('vendor/leaflet/dist/images/marker-icon-2x.png');
+//app.import('vendor/leaflet/dist/images/market-shadow.png');
+//app.import('vendor/leaflet/dist/leaflet.css');
+//app.import('vendor/leaflet/dist/leaflet.js');
+
+
 // If the library that you are including contains AMD or ES6 modules that
 // you would like to import into your application please specify an
 // object with the list of modules as keys along with the exports of each
