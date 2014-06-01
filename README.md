@@ -4,37 +4,34 @@
 
 [concept gist](https://gist.github.com/monking/c0f68340eba759258d4b)
 
-## Recommendations
-
-[Dijkstra's algorithm - find shortest route](http://en.wikipedia.org/wiki/Dijkstra's_algorithm)
-
-
 ## Dev nodes
 
 TechStack
 - EmberJS front end - http://emberjs.com/guides
 
-- Bower - management of 3rd party dependencies.
-- Node - starting local service for dev and testing purpose.
 
 Tools
-- Ember CLI - http://iamstef.net/ember-cli/ - tools and generators for developing webapp.
+- Ember CLI - http://iamstef.net/ember-cli/
 
 
 #Common commands
 
-*Starts a server on local host
-
+-- Starts a server on local host --
 ember server
 
-*Generate code stubs
-
+-- Generate code stubs --
 ember generate template (name)
 ember generate view (name)
 ember generate controller (name)
 ember generate route (name)
 
 
-*Compile distribution version
-
+-- Compile distribution version --
 ember build dist
+
+## Recommendations
+
+[Dijkstra's algorithm - find shortest route](http://en.wikipedia.org/wiki/Dijkstra's_algorithm)
+[Ionic mobile web Framework](http://ionicframework.com/)
+[ratchet mobile framework](http://goratchet.com/)
+[FastClick - eliminate 300ms delay on touch](https://github.com/ftlabs/fastclick)
