@@ -16,7 +16,15 @@ var Rider = DS.Model.extend({
             //do nothing
         }
         return "";
-    }.property('departure')
+    }.property('departure'),
+
+    location: function() {
+        try {
+            return L.latLng(this.get('lat'), this.get('lon'));
+        } catch(e) {
+            return null;
+        }
+    }.property("lat", "lon")
 });
 
 export default Rider;

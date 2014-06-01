@@ -1,8 +1,22 @@
+
+L.Icon.Default.imagePath = 'assets/images';
+window.MarkerCollectionLayer = EmberLeaflet.MarkerCollectionLayer.extend({
+    contentBinding: 'controller'
+});
+
+
+
 var SimilarridersView = EmberLeaflet.MapView.extend({
-    center: L.latLng(34.713282, -118.006978),
-    zoom: 18,
+    // map config
+    center: L.latLng(34.0700, -118.2500),
+    zoom: 16,
     options: {maxZoom: 19, minZoom: 0},
 
+    childLayers: [
+        EmberLeaflet.DefaultTileLayer,
+        window.MarkerCollectionLayer
+    ],
+    // end map config
     riderListHidden: false,
 
     didInsertElement: function() {

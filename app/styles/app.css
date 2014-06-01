@@ -3,14 +3,19 @@ html, body {
 }
 
 
+
+.near-by-riders {
+    height: 100%;
+}
+
 .rider-gravatar {
     width: 5em;
     height: 5em;
 }
 
 .near-by-rider-overlay {
-  z-index: 1;
-  background-color: white;
+    z-index: 1;
+    background-color: white;
 }
 
 .rider-list.collapsed {

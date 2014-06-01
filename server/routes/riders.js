@@ -11,7 +11,7 @@ var FIXTURES = {
             image:"assets/bikergirl1.jpg",
             distance:4.5,
             departure:"Sat May 31 2014 20:18:14 GMT-0700 (PDT)",
-            lat:34.0500,
+            lat:34.0700,
             lon:-118.2500
 
         },
@@ -21,9 +21,9 @@ var FIXTURES = {
             lastName: "Pallermo",
             image:"assets/bikergirl1.jpg",
             distance:4.5,
-            departure:"Sat May 31 2014 20:18:14 GMT-0700 (PDT)",
-            lat:34.0500,
-            lon:-118.2500
+            departure:"Sat May 31 2014 20:20:14 GMT-0700 (PDT)",
+            lat:34.0710,
+            lon:-118.2530
         }
     ]
 };

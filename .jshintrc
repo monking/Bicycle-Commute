@@ -10,6 +10,7 @@
     "$": true,
     "ENV": true,
     "module": true,
+    "console": true,
     "moment":true,
     "L": true,
     "EmberLeaflet": true
